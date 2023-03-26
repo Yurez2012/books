@@ -13,7 +13,6 @@ class BooksPage extends StatefulWidget {
 
 class _BooksPageState extends State<BooksPage> {
   String? errorMessage = '';
-
   List<Book> _books = [];
 
   @override
